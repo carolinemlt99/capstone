@@ -1,1 +1,7 @@
 # capstone
+
+This was my capstone project for my Computer Science Bachelor's degree at WGU. The basic requirements were to use machine learning, produce 3 visualizations, and provide an aoopurtunity for a user to interact with the project. I chose to focus on a topic I am interested in, and create a report that would hypothetically provide useful information if this was my place of work.
+
+The data was collected from the TriMet website. TriMet makes their ridership numbers by the month publicly available in the form of a graph. The data was then manually added to a SQL database and exported as a CSV so it could be more easily read by the Jupyter Notebook application. I used the necessary libraries to build a model in my application and ensured it was fitting my dataset well before predicting future values. 
+
+I thought linear regression would be the easiest way to predict future values since the original data did not have very large outliers as was already trending in the same positive direction. It also provides easy to visualize results. The application uses the method of ordinary least squares to determine accuracy. The goal is to have the coefficient of determination as close to a value of 1 as possible. For my model, the coefficient of determination was about 0.93. I think as more data becomes available, the model will only become more accurate. My application predicted that the pre-pandemic ridership value of 1.9 million will be reached in April 2028. 
